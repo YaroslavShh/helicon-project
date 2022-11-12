@@ -1,0 +1,110 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap');
+
+/*nullstyle*/
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   font-family: roboto;
+   background: #E5E5E5;
+   padding-top: 100px;
+}
+
+h1 {
+   font-size: 48px;
+   font-weight: 900;
+}
+
+button {
+   border: 0;
+   cursor: pointer;
+}
+
+.shop__subtitle {
+   margin-top: 40px;
+   font-size: 24px;
+   font-weight: 700;
+}
+
+.shop__title, .shop__subtitle  {
+   text-align: center;
+}
+
+.shop__container {
+   max-width: 1140px;
+   margin: 0 auto;
+}
+
+.shop__products {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+   grid-gap: 30px;
+   margin-top: 80px;
+}
+
+.shop__products-flex {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 50px 30px 0 30px;
+   gap: 30px;
+   background-color: #fff;
+}
+
+.shop__products-flex:first-child {
+   height: 814px;
+}
+
+.shop__products-flex:nth-child(2) {
+   height: 879px;
+}
+
+.shop__products-flex:last-child {
+   height: 911px;
+}
+
+.products-flex__title {
+   font-weight: 700;
+   font-size: 30px;
+}
+
+.products-flex__desc {
+   font-size: 18px;
+}
+
+.products-flex__price, .products-flex__currency {
+   font-weight: 900;
+   font-size: 24px;
+}
+
+.products-flex__btn {
+   background: #2CC34F;
+   width: 300px;
+   height: 57px;
+   color: #fff;
+   font-size: 18px;
+   font-weight: 900;
+   transition: 0.5s ease;
+}
+
+.products-flex__btn:hover {
+   background: #22943C;
+}
+
+.shop__footer {
+   margin-top: 60px;
+   background: #fff;
+   padding: 50px 0;
+}
+
+span {
+   font-size: 36px;
+   font-weight: 900;
+}
+span:nth-child(2) {
+   color: #FF0000;
+}
